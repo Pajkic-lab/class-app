@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+h1{
+  text-align: center;
+}
+
+.form {
+  text-align: center;
+  border: 1px solid black;
+  margin: 15% auto;
+  padding: 2%;
+  width: 40%;
+  min-width: 300px;
+}
+.form button{
+  margin: 1%;
+}
+.form input{
+  margin: 1px;
+}
+
+.alert{
+  text-align: center;
+  background-color: red;
+  color: white;
+  padding: 2%;
+}
+
+.formdash{
+  float: left;
+  text-align: center;
+  padding: 30px;
+  border: 1px solid black;
+  margin-top: 9%;
+  margin-left: 9%;
+  width: 30%;
+  min-width: 250px;
+}
+
+.userlist{
+  float: left;
+  text-align: center;
+  border: 1px solid black;
+  margin-top: 9%;
+  margin-left: 9%;
+  width: 30%;
+  min-width: 250px;
+  padding: 10px;
+}
+
+.profile{
+  border: 1px solid black;
+  margin: 5px;
+  padding: 10px;
+}
+
+.post{
+  padding: 30px;
+  background-color: rgb(236, 236, 236);
+  font-size: x-large;
+}
+
+.comment{
+  border: dashed 1px black;
+  text-align: left;
+}

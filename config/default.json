@@ -1,0 +1,4 @@
+{
+   "mongoURI": "mongodb+srv://marko:marko@cluster0-khngr.mongodb.net/test?retryWrites=true&w=majority",
+    "jwtSecret" : "i32iu23oi234hoi2323hil"
+}
