@@ -1,5 +1,5 @@
 const express = require('express')
-//const path = require('path')
+require('dotenv').config()
 const socketio = require('socket.io')
 const http = require('http')
 const connectDB = require('./config/db')
@@ -13,13 +13,12 @@ const mongoose = require('mongoose')
 const GridFsStorage = require('multer-gridfs-storage')
 const Grid = require('gridfs-stream')
 
-const config = require('config')
-const db = config.get('mongoURI')
-
+const db = process.env.MONGODB_URI
 
 
 const app = express()
 connectDB()
+
 
 //app.use(multer().single('file'))
 app.use(express.json({ extended: false }))

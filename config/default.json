@@ -1,4 +1,3 @@
 {
-   "mongoURI": "insert your key",
     "jwtSecret" : "i32iu23oi234hoi2323hil"
 }
